@@ -11,6 +11,25 @@
       "date": "26 de outubro de 2026 · 13h",
       "venue": "RAV 62 · 6º andar · Instituto de Matemática e Estatística (IME), UERJ",
       "participation": null,
+      "visitors": [
+        {
+          "name": "Ramanathan Sritharan",
+          "affiliation": "University of Dayton",
+          "sourceUrl": "https://udayton.edu/directory/engineering/computerscience/sritharan_r.php"
+        },
+        {
+          "name": "Diane Castonguay",
+          "affiliation": "Universidade Federal de Goiás (UFG)",
+          "translations": {"en": {"affiliation": "Federal University of Goiás (UFG)"}},
+          "sourceUrl": "https://inf.ufg.br/p/38676-diane-castonguay"
+        },
+        {
+          "name": "Hebert Coelho da Silva",
+          "affiliation": "Universidade Federal de Goiás (UFG)",
+          "translations": {"en": {"affiliation": "Federal University of Goiás (UFG)"}},
+          "sourceUrl": "https://inf.ufg.br/p/30163-corpo-docente"
+        }
+      ],
       "organizers": [
         {
           "name": "Mauro Nigro Alves Junior",

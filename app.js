@@ -35,7 +35,19 @@ function selectEdition(edition, navigate = false) {
   facts.replaceChildren();
   for (const [label, value] of [[t("Data"), edition.date || t("A confirmar")], [t("Local"), edition.venue || t("A confirmar")], [t("Participação"), edition.participation || t("A confirmar")]]) {
     const row = element('div');
-    row.append(element('dt', '', label), element('dd', '', value));
+    const detail = element('dd', '', value);
+    if (label === t('Participação') && edition.visitors?.length) {
+      detail.replaceChildren(element('p', 'visitors-label', t('Pesquisadores visitantes')));
+      const visitors = element('ul', 'visitors-list');
+      for (const original of edition.visitors) {
+        const visitor = localize(original);
+        const item = element('li');
+        item.append(element('strong', '', visitor.name), element('span', '', visitor.affiliation));
+        visitors.append(item);
+      }
+      detail.append(visitors);
+    }
+    row.append(element('dt', '', label), detail);
     facts.append(row);
   }
   renderProgram(edition);

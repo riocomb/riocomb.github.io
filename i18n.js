@@ -1,5 +1,6 @@
 'use strict';
 const english = {
+ 'Pesquisadores visitantes':'Visiting researchers',
  'Universidade do Estado do Rio de Janeiro':'Rio de Janeiro State University',
  'Instituto de Matemática e Estatística':'Institute of Mathematics and Statistics',
  'Organização':'Organizing committee','Contato e participação':'Contact and participation','Contato: a confirmar.':'Contact: to be confirmed.',
