@@ -50,6 +50,16 @@
               "affiliation": "Federal University of Rio de Janeiro (UFRJ)"
             }
           }
+        },
+        {
+          "name": "Mayara Midori Omai",
+          "affiliation": "Centro Federal de Educação Tecnológica Celso Suckow da Fonseca (CEFET/RJ)",
+          "translations": {
+            "en": {
+              "affiliation": "Federal Center for Technological Education Celso Suckow da Fonseca (CEFET/RJ)"
+            }
+          },
+          "sourceUrl": "https://eic.cefet-rj.br/portal/corpo-docente/"
         }
       ],
       "contactEmail": null,
