@@ -13,6 +13,11 @@
       "participation": null,
       "visitors": [
         {
+          "name": "Matěj Stehlík",
+          "affiliation": "Université de Paris",
+          "sourceUrl": "https://luerbio60.github.io/"
+        },
+        {
           "name": "Ramanathan Sritharan",
           "affiliation": "University of Dayton",
           "sourceUrl": "https://udayton.edu/directory/engineering/computerscience/sritharan_r.php"
