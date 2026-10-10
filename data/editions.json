@@ -15,7 +15,11 @@
         {
           "name": "Matheus Nunes Adauto",
           "affiliation": "Universidade Federal do Rio de Janeiro (UFRJ)",
-          "translations": {"en": {"affiliation": "Federal University of Rio de Janeiro (UFRJ)"}},
+          "translations": {
+            "en": {
+              "affiliation": "Federal University of Rio de Janeiro (UFRJ)"
+            }
+          },
           "sourceUrl": "https://pesc.coppe.ufrj.br/pt/academica/turmas/details/18/2811"
         },
         {
@@ -31,14 +35,32 @@
         {
           "name": "Diane Castonguay",
           "affiliation": "Universidade Federal de Goiás (UFG)",
-          "translations": {"en": {"affiliation": "Federal University of Goiás (UFG)"}},
+          "translations": {
+            "en": {
+              "affiliation": "Federal University of Goiás (UFG)"
+            }
+          },
           "sourceUrl": "https://inf.ufg.br/p/38676-diane-castonguay"
         },
         {
           "name": "Hebert Coelho da Silva",
           "affiliation": "Universidade Federal de Goiás (UFG)",
-          "translations": {"en": {"affiliation": "Federal University of Goiás (UFG)"}},
+          "translations": {
+            "en": {
+              "affiliation": "Federal University of Goiás (UFG)"
+            }
+          },
           "sourceUrl": "https://inf.ufg.br/p/30163-corpo-docente"
+        },
+        {
+          "name": "Celina Miraglia Herrera de Figueiredo",
+          "affiliation": "PESC/COPPE · Universidade Federal do Rio de Janeiro (UFRJ)",
+          "translations": {
+            "en": {
+              "affiliation": "PESC/COPPE · Federal University of Rio de Janeiro (UFRJ)"
+            }
+          },
+          "sourceUrl": "https://pesc.coppe.ufrj.br/pt/pessoas/professores/plenos/celina-miraglia-herrera-de-figueiredo"
         }
       ],
       "organizers": [
