@@ -60,6 +60,16 @@
             }
           },
           "sourceUrl": "https://eic.cefet-rj.br/portal/corpo-docente/"
+        },
+        {
+          "name": "Celina Miraglia Herrera de Figueiredo",
+          "affiliation": "PESC/COPPE · Universidade Federal do Rio de Janeiro (UFRJ)",
+          "translations": {
+            "en": {
+              "affiliation": "PESC/COPPE · Federal University of Rio de Janeiro (UFRJ)"
+            }
+          },
+          "sourceUrl": "https://pesc.coppe.ufrj.br/pt/pessoas/professores/plenos/celina-miraglia-herrera-de-figueiredo"
         }
       ],
       "contactEmail": null,
@@ -87,10 +97,10 @@
             "en": {
               "title": "Round table: problems in graph theory",
               "time": "After the talk",
-              "description": "A discussion of problems in graph theory to develop collaborations with visiting researchers."
+              "description": "Research discussion of open problems in graph theory with visiting researchers, Celina Figueiredo, Mauro Nigro Alves Junior and Matheus Nunes Adauto, aimed at developing collaborations."
             }
           },
-          "description": "Discussão de problemas em grafos para desenvolver colaborações com os pesquisadores visitantes."
+          "description": "Discussão de pesquisa sobre problemas em aberto em teoria dos grafos com pesquisadores visitantes, Celina Figueiredo, Mauro Nigro Alves Junior e Matheus Nunes Adauto, para desenvolver colaborações."
         }
       ],
       "materials": [],
