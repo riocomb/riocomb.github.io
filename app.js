@@ -94,6 +94,15 @@ function renderProgram(edition) {
     const row = element('article', 'session');
     const time = element('span', '', session.time || t("A confirmar"));
     const copy = element('div');
+    if (session.speakerPhoto && /^assets\/[a-z0-9-]+\.png$/.test(session.speakerPhoto)) {
+      const photo = element('img', 'speaker-photo');
+      photo.src = session.speakerPhoto;
+      photo.alt = session.speakerPhotoAlt || session.speaker || '';
+      photo.width = 392;
+      photo.height = 483;
+      photo.loading = 'lazy';
+      copy.append(photo);
+    }
     copy.append(element('h3', '', session.title || t("Título a confirmar")), element('p', '', session.speaker || (session.type === 'roundtable' ? '' : t("Palestrante a confirmar"))));
     if (session.description) copy.append(element('p', '', session.description));
     if (session.abstract) {

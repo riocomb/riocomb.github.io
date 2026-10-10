@@ -47,3 +47,4 @@
 @media(max-width:1100px){.header-tools .region{display:none}.site-header{gap:18px}.site-header nav{gap:18px}}
 @media(max-width:640px){.site-header .brand{order:0}.header-tools{order:1}.site-header nav{order:2}.brand>img{width:160px}.language-switch button{padding:5px;gap:4px}.language-switch svg{width:20px}.site-header{gap:14px}}
 @media(max-width:360px){.brand>img{width:140px}.language-switch button{font-size:11px}.language-switch svg{width:18px}}
+.session .speaker-photo{float:right;width:128px;height:auto;margin:0 0 16px 24px;border-radius:8px}.session>div:has(.speaker-photo){display:flow-root}@media(max-width:640px){.session .speaker-photo{float:none;display:block;width:112px;margin:0 0 16px}}

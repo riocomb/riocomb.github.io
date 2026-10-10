@@ -69,6 +69,8 @@
           "time": "13:00",
           "title": "Como tornar uma bola de futebol bipartida",
           "speaker": "Matěj Stehlík (Université de Paris)",
+          "speakerPhoto": "assets/matej-stehlik.png",
+          "speakerPhotoAlt": "Matěj Stehlík",
           "translations": {
             "en": {
               "title": "How to make a football bipartite"
