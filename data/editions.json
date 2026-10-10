@@ -1,0 +1,94 @@
+{
+  "featuredEdition": "primeiro-seminario",
+  "editions": [
+    {
+      "id": "primeiro-seminario",
+      "number": "Primeira edição",
+      "title": "Rio COMB — 1ª edição",
+      "status": "upcoming",
+      "description": "",
+      "date": null,
+      "venue": "UERJ · campus e sala a confirmar",
+      "participation": null,
+      "organizers": [
+        {
+          "name": "Mauro Nigro Alves Junior",
+          "affiliation": "Universidade do Estado do Rio de Janeiro (UERJ)",
+          "translations": {
+            "en": {
+              "affiliation": "Rio de Janeiro State University (UERJ)"
+            }
+          },
+          "sourceUrl": "https://luerbio60.github.io/#committee"
+        },
+        {
+          "name": "Diana Sasaki",
+          "affiliation": "Universidade do Estado do Rio de Janeiro (UERJ)",
+          "translations": {
+            "en": {
+              "affiliation": "Rio de Janeiro State University (UERJ)"
+            }
+          },
+          "sourceUrl": "https://luerbio60.github.io/#committee"
+        },
+        {
+          "name": "Mariana Martins Ferreira da Cruz",
+          "affiliation": "Instituto Federal do Rio de Janeiro (IFRJ)",
+          "translations": {
+            "en": {
+              "affiliation": "Federal Institute of Rio de Janeiro (IFRJ)"
+            }
+          },
+          "affiliationEvidence": "Filiação atual informada pelo usuário em 10 de outubro de 2026"
+        },
+        {
+          "name": "Matheus Nunes Adauto",
+          "sourceUrl": "https://pesc.coppe.ufrj.br/pt/academica/turmas/details/18/2811",
+          "affiliation": "Universidade Federal do Rio de Janeiro (UFRJ)",
+          "translations": {
+            "en": {
+              "affiliation": "Federal University of Rio de Janeiro (UFRJ)"
+            }
+          }
+        }
+      ],
+      "contactEmail": null,
+      "registrationUrl": null,
+      "schedule": [
+        {
+          "time": "13:00",
+          "title": "Como tornar uma bola de futebol bipartida",
+          "speaker": "Matěj Stehlík (Université de Paris)",
+          "translations": {
+            "en": {
+              "title": "How to make a football bipartite"
+            }
+          },
+          "sourceUrl": "https://luerbio60.github.io/"
+        },
+        {
+          "time": "Após a palestra",
+          "type": "roundtable",
+          "title": "Mesa redonda: problemas em grafos",
+          "speaker": null,
+          "translations": {
+            "en": {
+              "title": "Round table: problems in graph theory",
+              "time": "After the talk",
+              "description": "A discussion of problems in graph theory to develop collaborations with visiting researchers."
+            }
+          },
+          "description": "Discussão de problemas em grafos para desenvolver colaborações com os pesquisadores visitantes."
+        }
+      ],
+      "materials": [],
+      "translations": {
+        "en": {
+          "number": "First edition",
+          "title": "Rio COMB — First edition",
+          "venue": "UERJ · campus and room to be confirmed"
+        }
+      }
+    }
+  ]
+}
