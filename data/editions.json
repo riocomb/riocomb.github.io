@@ -3,6 +3,7 @@
   "editions": [
     {
       "id": "primeiro-seminario",
+      "institution": "UERJ",
       "number": "Primeira edição",
       "title": "Rio COMB — 1ª edição",
       "status": "upcoming",

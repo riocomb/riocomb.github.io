@@ -25,6 +25,7 @@ function selectEdition(edition, navigate = false) {
   selectedEditionId = edition.id;
   edition = localize(edition);
   document.getElementById('edition-title').textContent = edition.title;
+  document.getElementById('edition-institutions').hidden = edition.institution !== 'UERJ';
   document.getElementById('edition-number').textContent = edition.number;
   document.getElementById('edition-status').textContent = t(labels[edition.status]);
   document.querySelector('.section-top .eyebrow').textContent = edition.id === siteData.featuredEdition ? t("01 / Edição em destaque") : t("01 / Edição selecionada");

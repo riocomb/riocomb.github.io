@@ -1,5 +1,7 @@
 'use strict';
 const english = {
+ 'Universidade do Estado do Rio de Janeiro':'Rio de Janeiro State University',
+ 'Instituto de Matemática e Estatística':'Institute of Mathematics and Statistics',
  'Organização':'Organizing committee','Contato e participação':'Contact and participation','Contato: a confirmar.':'Contact: to be confirmed.',
  'Pular para o conteúdo':'Skip to content', 'Rio COMB — início':'Rio COMB — home', 'Navegação principal':'Main navigation',
  'Edição em destaque':'Featured edition','Edições':'Editions','Sobre a série':'About the series',
