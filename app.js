@@ -191,7 +191,7 @@ document.querySelectorAll('[data-language]').forEach(button => button.addEventLi
  if(siteData){renderEditions();selectEdition(siteData.editions.find(e=>e.id===selectedEditionId)||siteData.editions[0]);featuredLinks();}
  const error=document.querySelector('.load-error');if(error)error.textContent=t('Não foi possível carregar as edições. Recarregue a página ou tente novamente mais tarde.');
 }));
-fetch('data/editions.json')
+fetch('data/editions.json', { cache: 'no-store' })
   .then(response => {
     if (!response.ok) throw new Error('Falha ao carregar as edições');
     return response.json();
