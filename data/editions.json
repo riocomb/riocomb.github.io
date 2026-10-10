@@ -7,8 +7,8 @@
       "title": "Rio COMB — 1ª edição",
       "status": "upcoming",
       "description": "",
-      "date": null,
-      "venue": "UERJ · campus e sala a confirmar",
+      "date": "26 de outubro de 2026 · 13h",
+      "venue": "RAV 62 · 6º andar · Instituto de Matemática e Estatística (IME), UERJ",
       "participation": null,
       "organizers": [
         {
@@ -108,7 +108,8 @@
         "en": {
           "number": "First edition",
           "title": "Rio COMB — First edition",
-          "venue": "UERJ · campus and room to be confirmed"
+          "date": "26 October 2026 · 1:00 PM",
+          "venue": "RAV 62 · 6th floor · Institute of Mathematics and Statistics (IME), UERJ"
         }
       }
     }
