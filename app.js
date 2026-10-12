@@ -88,6 +88,7 @@ function renderOrganizers(edition) {
     const organizer = typeof original === 'string' ? {name: original} : localize(original);
     const item = element('li');
     item.append(element('h3', '', organizer.name));
+    if (organizer.role) item.append(element('p', 'organizer-role', organizer.role));
     if (organizer.affiliation) item.append(element('p', '', organizer.affiliation));
     list.append(item);
   }
@@ -102,8 +103,13 @@ function renderProgram(edition) {
     empty.append(element('p', '', edition.status === 'past' ? t("Programação não disponível.") : t("Horários e palestras a confirmar.")));
     container.append(empty);
   }
+  let currentDay;
   for (const original of edition.schedule || []) {
     const session = localize(original);
+    if (session.day && session.day !== currentDay) {
+      container.append(element('h3', 'program-day', session.day));
+      currentDay = session.day;
+    }
     const row = element('article', 'session');
     const time = element('span', '', session.time || t("A confirmar"));
     const copy = element('div');

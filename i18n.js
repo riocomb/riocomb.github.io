@@ -15,6 +15,7 @@ const english = {
  'UERJ · sala a confirmar':'UERJ · room to be confirmed',
  'UERJ · campus e sala a confirmar':'UERJ · campus and room to be confirmed',
  'Programação':'Programme','Horários e palestras a confirmar.':'Times and talks to be confirmed.',
+ 'Horário a confirmar':'Time to be confirmed',
  'Ative o JavaScript para carregar as edições.':'Enable JavaScript to load the editions.',
  'Próximas edições':'Upcoming editions','Datas e periodicidade a confirmar.':'Dates and frequency to be confirmed.',
  'Edições anteriores':'Past editions','Nenhuma edição realizada.':'No past editions yet.',

@@ -8,7 +8,7 @@
       "title": "Rio COMB — 1ª edição",
       "status": "upcoming",
       "description": "",
-      "date": "26 de outubro de 2026 · 13h",
+      "date": "26 e 28 de outubro de 2026",
       "venue": "RAV 62 · 6º andar · Instituto de Matemática e Estatística (IME), UERJ",
       "participation": null,
       "visitors": [
@@ -66,9 +66,11 @@
       "organizers": [
         {
           "name": "Mauro Nigro Alves Junior",
+          "role": "Presidente da comissão organizadora",
           "affiliation": "Universidade do Estado do Rio de Janeiro (UERJ)",
           "translations": {
             "en": {
+              "role": "Chair",
               "affiliation": "Rio de Janeiro State University (UERJ)"
             }
           },
@@ -83,6 +85,16 @@
             }
           },
           "sourceUrl": "https://luerbio60.github.io/#committee"
+        },
+        {
+          "name": "Luerbio Faria",
+          "affiliation": "Universidade do Estado do Rio de Janeiro (UERJ)",
+          "translations": {
+            "en": {
+              "affiliation": "Rio de Janeiro State University (UERJ)"
+            }
+          },
+          "sourceUrl": "https://www.ime.uerj.br/departamentos/"
         },
         {
           "name": "Mariana Martins Ferreira da Cruz",
@@ -125,10 +137,11 @@
           "sourceUrl": "https://pesc.coppe.ufrj.br/pt/pessoas/professores/plenos/celina-miraglia-herrera-de-figueiredo"
         }
       ],
-      "contactEmail": null,
+      "contactEmail": "mauro.nigro@ime.uerj.br",
       "registrationUrl": null,
       "schedule": [
         {
+          "day": "26 de outubro · segunda-feira",
           "time": "13:00",
           "title": "Como tornar uma bola de futebol bipartida",
           "speaker": "Matěj Stehlík (Université de Paris)",
@@ -136,32 +149,67 @@
           "speakerPhotoAlt": "Matěj Stehlík",
           "translations": {
             "en": {
+              "day": "Monday, 26 October",
               "title": "How to make a football bipartite"
             }
           },
           "sourceUrl": "https://luerbio60.github.io/"
         },
         {
+          "day": "26 de outubro · segunda-feira",
           "time": "Após a palestra",
           "type": "roundtable",
           "title": "Mesa redonda: problemas em grafos",
           "speaker": null,
           "translations": {
             "en": {
+              "day": "Monday, 26 October",
               "title": "Round table: problems in graph theory",
               "time": "After the talk",
               "description": "Research discussion of open problems in graph theory to develop collaborations with visiting researchers."
             }
           },
           "description": "Discussão de pesquisa sobre problemas em aberto em teoria dos grafos para desenvolver colaborações com pesquisadores visitantes."
+        },
+        {
+          "day": "28 de outubro · quarta-feira",
+          "time": "Horário a confirmar",
+          "title": "Apresentação prevista",
+          "speaker": "Matheus Nunes Adauto (UFRJ)",
+          "translations": {
+            "en": {
+              "day": "Wednesday, 28 October",
+              "time": "Time to be confirmed",
+              "title": "Planned talk"
+            }
+          }
         }
       ],
-      "materials": [],
+      "materials": [
+        {
+          "label": "Pôster de divulgação (PDF)",
+          "url": "https://riocomb.github.io/assets/riocomb-first-edition-poster.pdf",
+          "translations": {
+            "en": {
+              "label": "Event poster (PDF)"
+            }
+          }
+        },
+        {
+          "label": "Pôster de divulgação (PNG)",
+          "url": "https://riocomb.github.io/assets/riocomb-first-edition-poster.png",
+          "translations": {
+            "en": {
+              "label": "Event poster (PNG)"
+            }
+          }
+        }
+      ],
       "translations": {
         "en": {
           "number": "First edition",
           "title": "Rio COMB — First edition",
-          "date": "26 October 2026 · 1:00 PM",
+          "date": "26 and 28 October 2026",
           "venue": "RAV 62 · 6th floor · Institute of Mathematics and Statistics (IME), UERJ"
         }
       }
