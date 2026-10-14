@@ -173,36 +173,82 @@
         },
         {
           "day": "28 de outubro · quarta-feira",
-          "time": "Horário a confirmar",
-          "title": "Apresentação prevista",
-          "speaker": "Matheus Nunes Adauto (UFRJ)",
+          "time": "13:00",
+          "title": "The complexity of hard graph problems forty years later",
+          "speaker": "Celina Miraglia Herrera de Figueiredo (PESC/COPPE, UFRJ)",
+          "speakerPhoto": "assets/celina-figueiredo.png",
+          "speakerPhotoAlt": "Celina Miraglia Herrera de Figueiredo",
+          "speakerPhotoWidth": 332,
+          "speakerPhotoHeight": 362,
           "translations": {
             "en": {
               "day": "Wednesday, 28 October",
-              "time": "Time to be confirmed",
-              "title": "Planned talk"
+              "title": "The complexity of hard graph problems forty years later"
+            }
+          },
+          "sourceUrl": "https://pesc.coppe.ufrj.br/pt/pessoas/professores/plenos/celina-miraglia-herrera-de-figueiredo"
+        },
+        {
+          "day": "28 de outubro · quarta-feira",
+          "time": "Após a palestra",
+          "type": "roundtable",
+          "title": "Sessão de problemas em grafos",
+          "speaker": null,
+          "description": "Discussão de pesquisa sobre problemas em aberto em teoria dos grafos para desenvolver colaborações com pesquisadores visitantes.",
+          "translations": {
+            "en": {
+              "day": "Wednesday, 28 October",
+              "time": "After the talk",
+              "title": "Problems session: graph theory",
+              "description": "Research discussion of open problems in graph theory to develop collaborations with visiting researchers."
             }
           }
         }
       ],
       "materials": [
         {
-          "label": "Pôster de divulgação (PDF)",
+          "label": "Pôster dos dois dias (PDF)",
           "url": "https://riocomb.github.io/assets/riocomb-first-edition-poster.pdf",
           "translations": {
             "en": {
-              "label": "Event poster (PDF)"
+              "label": "Two-day event poster (PDF)"
             }
-          }
+          },
+          "kind": "poster"
         },
         {
-          "label": "Pôster de divulgação (PNG)",
+          "label": "Pôster dos dois dias (PNG)",
           "url": "https://riocomb.github.io/assets/riocomb-first-edition-poster.png",
           "translations": {
             "en": {
-              "label": "Event poster (PNG)"
+              "label": "Two-day event poster (PNG)"
             }
-          }
+          },
+          "kind": "poster"
+        },
+        {
+          "label": "Pôster de 26 de outubro (PDF)",
+          "url": "https://riocomb.github.io/assets/riocomb-26-october-poster.pdf",
+          "translations": { "en": { "label": "26 October poster (PDF)" } },
+          "kind": "poster"
+        },
+        {
+          "label": "Pôster de 26 de outubro (PNG)",
+          "url": "https://riocomb.github.io/assets/riocomb-26-october-poster.png",
+          "translations": { "en": { "label": "26 October poster (PNG)" } },
+          "kind": "poster"
+        },
+        {
+          "label": "Pôster de 28 de outubro (PDF)",
+          "url": "https://riocomb.github.io/assets/riocomb-28-october-poster.pdf",
+          "translations": { "en": { "label": "28 October poster (PDF)" } },
+          "kind": "poster"
+        },
+        {
+          "label": "Pôster de 28 de outubro (PNG)",
+          "url": "https://riocomb.github.io/assets/riocomb-28-october-poster.png",
+          "translations": { "en": { "label": "28 October poster (PNG)" } },
+          "kind": "poster"
         }
       ],
       "translations": {

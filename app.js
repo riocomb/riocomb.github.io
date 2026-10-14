@@ -117,8 +117,8 @@ function renderProgram(edition) {
       const photo = element('img', 'speaker-photo');
       photo.src = session.speakerPhoto;
       photo.alt = session.speakerPhotoAlt || session.speaker || '';
-      photo.width = 392;
-      photo.height = 483;
+      photo.width = session.speakerPhotoWidth || 392;
+      photo.height = session.speakerPhotoHeight || 483;
       photo.loading = 'lazy';
       copy.append(photo);
     }
