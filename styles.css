@@ -54,3 +54,14 @@
 
 .edition-facts .visitors-label{color:inherit;font-size:14px;margin-bottom:12px}.visitors-list{list-style:none;margin:0;padding:0;display:grid;gap:14px}.visitors-list li{display:grid;gap:3px}.visitors-list strong{font-size:15px;font-weight:600}.visitors-list span{font-size:13px;line-height:1.5}
 .organizers-list .organizer-role{font-size:12px;font-weight:600;color:var(--rust);margin-top:6px}
+
+/* Visiting faculty prominently displayed within the selected edition. */
+.visitor-highlights{margin-top:32px;padding-top:28px;border-top:1px solid #55756b}
+.visitor-highlights>h3{font-size:22px;margin-bottom:20px;color:var(--paper)}
+.visitor-highlight-grid{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.visitor-highlight-grid li{padding:20px;border:1px solid #55756b;border-radius:6px;background:#204a43;min-width:0}
+.visitor-highlight-grid h4{font-size:19px;font-weight:600;line-height:1.35;margin:0;color:var(--paper)}
+.visitor-highlight-grid p{font-size:14px;line-height:1.5;margin-top:9px;color:#cfddd6}
+.session .session-venue{font-size:13px;font-weight:600;color:var(--rust);margin-top:10px}
+@media(max-width:950px){.visitor-highlight-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:640px){.visitor-highlight-grid{grid-template-columns:1fr}.visitor-highlight-grid li{padding:18px}}

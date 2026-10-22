@@ -33,7 +33,7 @@ function selectEdition(edition, navigate = false) {
   document.getElementById('edition-description').hidden = !edition.description;
   const facts = document.getElementById('edition-facts');
   facts.replaceChildren();
-  for (const [label, value] of [[t("Data"), edition.date || t("A confirmar")], [t("Local"), edition.venue || t("A confirmar")], [t("Participação"), edition.participation || t("A confirmar")]]) {
+  for (const [label, value] of [[t("Data"), edition.date || t("A confirmar")], [t("Local"), edition.venue || t("A confirmar")]]) {
     const row = element('div');
     const detail = element('dd', '', value);
     if (label === t('Participação') && edition.visitors?.length) {
@@ -50,6 +50,7 @@ function selectEdition(edition, navigate = false) {
     row.append(element('dt', '', label), detail);
     facts.append(row);
   }
+  renderVisitorHighlights(edition);
   renderProgram(edition);
   renderOrganizers(edition);
   document.getElementById('practical-location').textContent = edition.venue || t("Local a confirmar.");
@@ -79,6 +80,30 @@ function selectEdition(edition, navigate = false) {
     heading.focus({ preventScroll: true });
     document.getElementById('edicao').scrollIntoView({ behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth' });
   }
+}
+
+function renderVisitorHighlights(edition) {
+  const host = document.getElementById('edicao');
+  if (!host) return;
+  let section = document.getElementById('visitor-highlights');
+  if (!section) {
+    section = element('section', 'visitor-highlights');
+    section.id = 'visitor-highlights';
+    section.setAttribute('aria-labelledby', 'visitor-highlights-title');
+    host.append(section);
+  }
+  section.replaceChildren();
+  section.hidden = !edition.visitors?.length;
+  const heading = element('h3', '', t('Pesquisadores visitantes'));
+  heading.id = 'visitor-highlights-title';
+  const list = element('ul', 'visitor-highlight-grid');
+  for (const original of edition.visitors || []) {
+    const visitor = localize(original);
+    const item = element('li');
+    item.append(element('h4', '', visitor.name), element('p', '', visitor.affiliation));
+    list.append(item);
+  }
+  section.append(heading, list);
 }
 
 function renderOrganizers(edition) {
@@ -123,6 +148,7 @@ function renderProgram(edition) {
       copy.append(photo);
     }
     copy.append(element('h3', '', session.title || t("Título a confirmar")), element('p', '', session.speaker || (session.type === 'roundtable' ? '' : t("Palestrante a confirmar"))));
+    if (session.venue) copy.append(element('p', 'session-venue', t('Local') + ': ' + session.venue));
     if (session.description) copy.append(element('p', '', session.description));
     if (session.abstract) {
       const details = element('details');

@@ -9,18 +9,18 @@
       "status": "upcoming",
       "description": "",
       "date": "26 e 28 de outubro de 2026",
-      "venue": "RAV 62 · 6º andar · Instituto de Matemática e Estatística (IME), UERJ",
+      "venue": "26/10: RAV 62 · 28/10: sala 6.179, bloco F · 6º andar · IME, UERJ",
       "participation": null,
       "visitors": [
         {
-          "name": "Matheus Nunes Adauto",
-          "affiliation": "Universidade Federal do Rio de Janeiro (UFRJ)",
+          "name": "André Luiz Pires Guedes",
+          "affiliation": "Universidade Federal do Paraná (UFPR)",
           "translations": {
             "en": {
-              "affiliation": "Federal University of Rio de Janeiro (UFRJ)"
+              "affiliation": "Federal University of Paraná (UFPR)"
             }
           },
-          "sourceUrl": "https://pesc.coppe.ufrj.br/pt/academica/turmas/details/18/2811"
+          "sourceUrl": "https://www.inf.ufpr.br/andre/"
         },
         {
           "name": "Matěj Stehlík",
@@ -150,26 +150,31 @@
           "translations": {
             "en": {
               "day": "Monday, 26 October",
-              "title": "How to make a football bipartite"
+              "title": "How to make a football bipartite",
+              "venue": "RAV 62 · 6th floor · IME, UERJ"
             }
           },
-          "sourceUrl": "https://luerbio60.github.io/"
+          "sourceUrl": "https://luerbio60.github.io/",
+          "venue": "RAV 62 · 6º andar · IME, UERJ"
         },
         {
           "day": "26 de outubro · segunda-feira",
           "time": "Após a palestra",
           "type": "roundtable",
           "title": "Mesa redonda: problemas em grafos",
-          "speaker": null,
+          "speaker": "André Luiz Pires Guedes (UFPR)",
           "translations": {
             "en": {
               "day": "Monday, 26 October",
               "title": "Round table: problems in graph theory",
               "time": "After the talk",
-              "description": "Research discussion of open problems in graph theory to develop collaborations with visiting researchers."
+              "description": "Research discussion of open problems in graph theory to develop collaborations with visiting researchers.",
+              "venue": "RAV 62 · 6th floor · IME, UERJ",
+              "speaker": "André Luiz Pires Guedes (UFPR)"
             }
           },
-          "description": "Discussão de pesquisa sobre problemas em aberto em teoria dos grafos para desenvolver colaborações com pesquisadores visitantes."
+          "description": "Discussão de pesquisa sobre problemas em aberto em teoria dos grafos para desenvolver colaborações com pesquisadores visitantes.",
+          "venue": "RAV 62 · 6º andar · IME, UERJ"
         },
         {
           "day": "28 de outubro · quarta-feira",
@@ -184,32 +189,37 @@
           "translations": {
             "en": {
               "day": "Wednesday, 28 October",
-              "title": "The complexity of hard graph problems forty years later"
+              "title": "The complexity of hard graph problems forty years later",
+              "venue": "Room 6.179 · block F · 6th floor · IME, UERJ"
             }
           },
-          "sourceUrl": "https://pesc.coppe.ufrj.br/pt/pessoas/professores/plenos/celina-miraglia-herrera-de-figueiredo"
+          "sourceUrl": "https://pesc.coppe.ufrj.br/pt/pessoas/professores/plenos/celina-miraglia-herrera-de-figueiredo",
+          "venue": "Sala 6.179 · bloco F · 6º andar · IME, UERJ"
         },
         {
           "day": "28 de outubro · quarta-feira",
           "time": "Após a palestra",
           "type": "roundtable",
           "title": "Sessão de problemas em grafos",
-          "speaker": null,
+          "speaker": "Diane Castonguay e Hebert Coelho da Silva (UFG)",
           "description": "Discussão de pesquisa sobre problemas em aberto em teoria dos grafos para desenvolver colaborações com pesquisadores visitantes.",
           "translations": {
             "en": {
               "day": "Wednesday, 28 October",
               "time": "After the talk",
               "title": "Problems session: graph theory",
-              "description": "Research discussion of open problems in graph theory to develop collaborations with visiting researchers."
+              "description": "Research discussion of open problems in graph theory to develop collaborations with visiting researchers.",
+              "venue": "Room 6.179 · block F · 6th floor · IME, UERJ",
+              "speaker": "Diane Castonguay and Hebert Coelho da Silva (UFG)"
             }
-          }
+          },
+          "venue": "Sala 6.179 · bloco F · 6º andar · IME, UERJ"
         }
       ],
       "materials": [
         {
           "label": "Pôster dos dois dias (PDF)",
-          "url": "https://riocomb.github.io/assets/riocomb-first-edition-poster.pdf",
+          "url": "https://riocomb.github.io/assets/riocomb-first-edition-poster.pdf?v=20261022",
           "translations": {
             "en": {
               "label": "Two-day event poster (PDF)"
@@ -219,7 +229,7 @@
         },
         {
           "label": "Pôster dos dois dias (PNG)",
-          "url": "https://riocomb.github.io/assets/riocomb-first-edition-poster.png",
+          "url": "https://riocomb.github.io/assets/riocomb-first-edition-poster.png?v=20261022",
           "translations": {
             "en": {
               "label": "Two-day event poster (PNG)"
@@ -229,26 +239,42 @@
         },
         {
           "label": "Pôster de 26 de outubro (PDF)",
-          "url": "https://riocomb.github.io/assets/riocomb-26-october-poster.pdf",
-          "translations": { "en": { "label": "26 October poster (PDF)" } },
+          "url": "https://riocomb.github.io/assets/riocomb-26-october-poster.pdf?v=20261022",
+          "translations": {
+            "en": {
+              "label": "26 October poster (PDF)"
+            }
+          },
           "kind": "poster"
         },
         {
           "label": "Pôster de 26 de outubro (PNG)",
-          "url": "https://riocomb.github.io/assets/riocomb-26-october-poster.png",
-          "translations": { "en": { "label": "26 October poster (PNG)" } },
+          "url": "https://riocomb.github.io/assets/riocomb-26-october-poster.png?v=20261022",
+          "translations": {
+            "en": {
+              "label": "26 October poster (PNG)"
+            }
+          },
           "kind": "poster"
         },
         {
           "label": "Pôster de 28 de outubro (PDF)",
-          "url": "https://riocomb.github.io/assets/riocomb-28-october-poster.pdf",
-          "translations": { "en": { "label": "28 October poster (PDF)" } },
+          "url": "https://riocomb.github.io/assets/riocomb-28-october-poster.pdf?v=20261022",
+          "translations": {
+            "en": {
+              "label": "28 October poster (PDF)"
+            }
+          },
           "kind": "poster"
         },
         {
           "label": "Pôster de 28 de outubro (PNG)",
-          "url": "https://riocomb.github.io/assets/riocomb-28-october-poster.png",
-          "translations": { "en": { "label": "28 October poster (PNG)" } },
+          "url": "https://riocomb.github.io/assets/riocomb-28-october-poster.png?v=20261022",
+          "translations": {
+            "en": {
+              "label": "28 October poster (PNG)"
+            }
+          },
           "kind": "poster"
         }
       ],
@@ -257,7 +283,7 @@
           "number": "First edition",
           "title": "Rio COMB — First edition",
           "date": "26 and 28 October 2026",
-          "venue": "RAV 62 · 6th floor · Institute of Mathematics and Statistics (IME), UERJ"
+          "venue": "26 October: RAV 62 · 28 October: room 6.179, block F · 6th floor · IME, UERJ"
         }
       }
     }
