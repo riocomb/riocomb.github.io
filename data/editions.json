@@ -9,7 +9,7 @@
       "status": "upcoming",
       "description": "",
       "date": "26 e 28 de outubro de 2026",
-      "venue": "26/10: RAV 62 · 28/10: sala 6.179, bloco F · 6º andar · IME, UERJ",
+      "venue": "26/10: RAV 62 · 28/10: sala 6139, bloco F · 6º andar · IME, UERJ",
       "participation": null,
       "visitors": [
         {
@@ -190,11 +190,11 @@
             "en": {
               "day": "Wednesday, 28 October",
               "title": "The complexity of hard graph problems forty years later",
-              "venue": "Room 6.179 · block F · 6th floor · IME, UERJ"
+              "venue": "Room 6139 · block F · 6th floor · IME, UERJ"
             }
           },
           "sourceUrl": "https://pesc.coppe.ufrj.br/pt/pessoas/professores/plenos/celina-miraglia-herrera-de-figueiredo",
-          "venue": "Sala 6.179 · bloco F · 6º andar · IME, UERJ"
+          "venue": "Sala 6139 · bloco F · 6º andar · IME, UERJ"
         },
         {
           "day": "28 de outubro · quarta-feira",
@@ -209,17 +209,17 @@
               "time": "After the talk",
               "title": "Problems session: graph theory",
               "description": "Research discussion of open problems in graph theory to develop collaborations with visiting researchers.",
-              "venue": "Room 6.179 · block F · 6th floor · IME, UERJ",
+              "venue": "Room 6139 · block F · 6th floor · IME, UERJ",
               "speaker": "Diane Castonguay and Hebert Coelho da Silva (UFG)"
             }
           },
-          "venue": "Sala 6.179 · bloco F · 6º andar · IME, UERJ"
+          "venue": "Sala 6139 · bloco F · 6º andar · IME, UERJ"
         }
       ],
       "materials": [
         {
           "label": "Pôster dos dois dias (PDF)",
-          "url": "https://riocomb.github.io/assets/riocomb-first-edition-poster.pdf?v=20261022",
+          "url": "https://riocomb.github.io/assets/riocomb-first-edition-poster.pdf?v=20261022-6139",
           "translations": {
             "en": {
               "label": "Two-day event poster (PDF)"
@@ -229,7 +229,7 @@
         },
         {
           "label": "Pôster dos dois dias (PNG)",
-          "url": "https://riocomb.github.io/assets/riocomb-first-edition-poster.png?v=20261022",
+          "url": "https://riocomb.github.io/assets/riocomb-first-edition-poster.png?v=20261022-6139",
           "translations": {
             "en": {
               "label": "Two-day event poster (PNG)"
@@ -239,7 +239,7 @@
         },
         {
           "label": "Pôster de 26 de outubro (PDF)",
-          "url": "https://riocomb.github.io/assets/riocomb-26-october-poster.pdf?v=20261022",
+          "url": "https://riocomb.github.io/assets/riocomb-26-october-poster.pdf?v=20261022-6139",
           "translations": {
             "en": {
               "label": "26 October poster (PDF)"
@@ -249,7 +249,7 @@
         },
         {
           "label": "Pôster de 26 de outubro (PNG)",
-          "url": "https://riocomb.github.io/assets/riocomb-26-october-poster.png?v=20261022",
+          "url": "https://riocomb.github.io/assets/riocomb-26-october-poster.png?v=20261022-6139",
           "translations": {
             "en": {
               "label": "26 October poster (PNG)"
@@ -259,7 +259,7 @@
         },
         {
           "label": "Pôster de 28 de outubro (PDF)",
-          "url": "https://riocomb.github.io/assets/riocomb-28-october-poster.pdf?v=20261022",
+          "url": "https://riocomb.github.io/assets/riocomb-28-october-poster.pdf?v=20261022-6139",
           "translations": {
             "en": {
               "label": "28 October poster (PDF)"
@@ -269,7 +269,7 @@
         },
         {
           "label": "Pôster de 28 de outubro (PNG)",
-          "url": "https://riocomb.github.io/assets/riocomb-28-october-poster.png?v=20261022",
+          "url": "https://riocomb.github.io/assets/riocomb-28-october-poster.png?v=20261022-6139",
           "translations": {
             "en": {
               "label": "28 October poster (PNG)"
@@ -283,7 +283,7 @@
           "number": "First edition",
           "title": "Rio COMB — First edition",
           "date": "26 and 28 October 2026",
-          "venue": "26 October: RAV 62 · 28 October: room 6.179, block F · 6th floor · IME, UERJ"
+          "venue": "26 October: RAV 62 · 28 October: room 6139, block F · 6th floor · IME, UERJ"
         }
       }
     }
