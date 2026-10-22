@@ -1,5 +1,6 @@
 'use strict';
 const english = {
+ 'Instituto de Matemática, Estatística e Computação':'Institute of Mathematics, Statistics and Computing',
  'Pesquisadores visitantes':'Visiting researchers',
  'Universidade do Estado do Rio de Janeiro':'Rio de Janeiro State University',
  'Instituto de Matemática e Estatística':'Institute of Mathematics and Statistics',
