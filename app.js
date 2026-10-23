@@ -150,6 +150,17 @@ function renderProgram(edition) {
     copy.append(element('h3', '', session.title || t("Título a confirmar")), element('p', '', session.speaker || (session.type === 'roundtable' ? '' : t("Palestrante a confirmar"))));
     if (session.venue) copy.append(element('p', 'session-venue', t('Local') + ': ' + session.venue));
     if (session.description) copy.append(element('p', '', session.description));
+    if (session.problemPresentations?.length) {
+      const presentations = element('ol', 'problem-presentations');
+      for (const original of session.problemPresentations) {
+        const presentation = localize(original);
+        const item = element('li');
+        item.append(element('h4', '', presentation.title));
+        item.append(element('p', '', presentation.speaker + ' · ' + presentation.durationMinutes + ' min'));
+        presentations.append(item);
+      }
+      copy.append(presentations);
+    }
     if (session.abstract) {
       const details = element('details');
       details.append(element('summary', '', t("Leia o resumo")), element('p', '', session.abstract));
