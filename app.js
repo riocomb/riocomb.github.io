@@ -18,6 +18,18 @@ const externalLink = (label, url) => {
   link.href = url;
   return link;
 };
+function presentationHeading(tag, presentation) {
+  const heading = element(tag, '', presentation.title || t('Título a confirmar'));
+  const url = safeUrl(presentation.slidesUrl);
+  if (url) {
+    const link = externalLink(presentation.title, url);
+    link.className = 'presentation-slides-link';
+    link.target = '_blank';
+    link.rel = 'noopener';
+    heading.replaceChildren(link);
+  }
+  return heading;
+}
 let siteData;
 let selectedEditionId;
 
@@ -147,7 +159,7 @@ function renderProgram(edition) {
       photo.loading = 'lazy';
       copy.append(photo);
     }
-    copy.append(element('h3', '', session.title || t("Título a confirmar")), element('p', '', session.speaker || (session.type === 'roundtable' ? '' : t("Palestrante a confirmar"))));
+    copy.append(presentationHeading('h3', session), element('p', '', session.speaker || (session.type === 'roundtable' ? '' : t("Palestrante a confirmar"))));
     if (session.venue) copy.append(element('p', 'session-venue', t('Local') + ': ' + session.venue));
     if (session.description) copy.append(element('p', '', session.description));
     if (session.problemPresentations?.length) {
@@ -155,8 +167,8 @@ function renderProgram(edition) {
       for (const original of session.problemPresentations) {
         const presentation = localize(original);
         const item = element('li');
-        item.append(element('h4', '', presentation.title));
-        item.append(element('p', '', presentation.speaker + ' · ' + presentation.durationMinutes + ' min'));
+        item.append(presentationHeading('h4', presentation));
+        item.append(element('p', '', presentation.speaker + (presentation.durationMinutes ? ' · ' + presentation.durationMinutes + ' min' : '')));
         presentations.append(item);
       }
       copy.append(presentations);
