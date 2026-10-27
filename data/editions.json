@@ -155,8 +155,7 @@
             }
           },
           "sourceUrl": "https://luerbio60.github.io/",
-          "venue": "RAV 62 · 6º andar · IMEC, UERJ",
-          "slidesUrl": "https://riocomb.github.io/assets/slides/matej-stehlik-football.pdf"
+          "venue": "RAV 62 · 6º andar · IMEC, UERJ"
         },
         {
           "day": "26 de outubro · segunda-feira",
@@ -185,14 +184,12 @@
                 "en": {
                   "title": "Recognizing IIC-comparability graphs"
                 }
-              },
-              "slidesUrl": "https://riocomb.github.io/assets/slides/andre-guedes-iic-comparability.pdf"
+              }
             },
             {
               "speaker": "Diane Castonguay (UFG)",
               "title": "What is role assignment in graphs?",
-              "durationMinutes": 20,
-              "slidesUrl": "https://riocomb.github.io/assets/slides/diane-castonguay-role-assignment.pdf"
+              "durationMinutes": 20
             }
           ]
         },
@@ -214,8 +211,7 @@
             }
           },
           "sourceUrl": "https://pesc.coppe.ufrj.br/pt/pessoas/professores/plenos/celina-miraglia-herrera-de-figueiredo",
-          "venue": "Sala 6139 · bloco F · 6º andar · IMEC, UERJ",
-          "slidesUrl": "https://riocomb.github.io/assets/slides/celina-figueiredo-hard-graph-problems.pdf"
+          "venue": "Sala 6139 · bloco F · 6º andar · IMEC, UERJ"
         },
         {
           "day": "28 de outubro · quarta-feira",
@@ -238,8 +234,7 @@
           "problemPresentations": [
             {
               "speaker": "Diane Castonguay (UFG)",
-              "title": "Independent Locating-Dominating Sets on Chordal Graphs",
-              "slidesUrl": "https://riocomb.github.io/assets/slides/diane-castonguay-ild-chordal-graphs.pdf"
+              "title": "Independent Locating-Dominating Sets on Chordal Graphs"
             },
             {
               "speaker": "Hebert Coelho da Silva (UFG)",
