@@ -244,7 +244,8 @@
             {
               "speaker": "Hebert Coelho da Silva (UFG)",
               "title": "On the P₃-Hull Number",
-              "durationMinutes": 20
+              "durationMinutes": 20,
+              "slidesUrl": "https://riocomb.github.io/assets/slides/hebert-coelho-p3-hull-number.pdf"
             }
           ]
         }
