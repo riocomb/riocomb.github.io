@@ -64,6 +64,7 @@ function selectEdition(edition, navigate = false) {
   }
   renderVisitorHighlights(edition);
   renderProgram(edition);
+  renderCertificates(edition);
   renderOrganizers(edition);
   document.getElementById('practical-location').textContent = edition.venue || t("Local a confirmar.");
   const contact = document.getElementById('practical-contact');
@@ -130,6 +131,42 @@ function renderOrganizers(edition) {
     list.append(item);
   }
   if (!list.childElementCount) list.append(element('li', '', t('Organização: a confirmar.')));
+}
+
+function renderCertificates(edition) {
+  const programme = document.getElementById('program-content');
+  if (!programme) return;
+  let section = document.getElementById('certificados');
+  if (!section) {
+    section = element('section', 'content-section certificates-section');
+    section.id = 'certificados';
+    section.setAttribute('aria-labelledby', 'certificates-title');
+    programme.closest('section').after(section);
+  }
+  section.replaceChildren();
+  const groups = edition.certificates;
+  section.hidden = !groups;
+  if (!groups) return;
+  const heading = element('h2', '', t('Certificados'));
+  heading.id = 'certificates-title';
+  const grid = element('div', 'certificate-groups');
+  for (const [kind, label] of [['participation', 'Participação — 6 horas'], ['organization', 'Organização']]) {
+    const card = element('div', 'certificate-group');
+    const items = groups[kind] || [];
+    card.append(element('h3', '', t(label) + ' (' + items.length + ')'));
+    const list = element('ul', 'certificate-list');
+    for (const certificate of [...items].sort((a, b) => a.name.localeCompare(b.name, 'pt-BR'))) {
+      const url = safeUrl(certificate.url);
+      if (!url) continue;
+      const item = element('li');
+      const link = externalLink(certificate.name, url);
+      link.className = 'certificate-link';
+      link.target = '_blank'; link.rel = 'noopener';
+      item.append(link); list.append(item);
+    }
+    card.append(list); grid.append(card);
+  }
+  section.append(heading, element('p', 'certificates-description', t('Clique no seu nome para abrir o certificado em PDF.')), grid);
 }
 
 function renderProgram(edition) {

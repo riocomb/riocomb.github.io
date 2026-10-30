@@ -6,7 +6,7 @@
       "institution": "UERJ",
       "number": "Primeira edição",
       "title": "Rio COMB — 1ª edição",
-      "status": "upcoming",
+      "status": "past",
       "description": "",
       "date": "26 e 28 de outubro de 2026",
       "venue": "26/10: RAV 62 · 28/10: sala 6139, bloco F · 6º andar · IMEC, UERJ",
@@ -319,6 +319,108 @@
           "date": "26 and 28 October 2026",
           "venue": "26 October: RAV 62 · 28 October: room 6139, block F · 6th floor · IMEC, UERJ"
         }
+      },
+      "certificates": {
+        "participation": [
+          {
+            "name": "Gabriel Lambranho Ramos Faia",
+            "url": "https://riocomb.github.io/assets/certificates/participation-gabriel-lambranho-ramos-faia.pdf"
+          },
+          {
+            "name": "Yussi Cerri Figueiredo",
+            "url": "https://riocomb.github.io/assets/certificates/participation-yussi-cerri-figueiredo.pdf"
+          },
+          {
+            "name": "Pedro Paulo Hermínio da Silva",
+            "url": "https://riocomb.github.io/assets/certificates/participation-pedro-paulo-herminio-da-silva.pdf"
+          },
+          {
+            "name": "Gelyciane Alves Macedo de Oliveira",
+            "url": "https://riocomb.github.io/assets/certificates/participation-gelyciane-alves-macedo-de-oliveira.pdf"
+          },
+          {
+            "name": "Mariana Carvalho Pinto",
+            "url": "https://riocomb.github.io/assets/certificates/participation-mariana-carvalho-pinto.pdf"
+          },
+          {
+            "name": "Gabriel da Cruz Couto",
+            "url": "https://riocomb.github.io/assets/certificates/participation-gabriel-da-cruz-couto.pdf"
+          },
+          {
+            "name": "Giovanna Varandas da Gama",
+            "url": "https://riocomb.github.io/assets/certificates/participation-giovanna-varandas-da-gama.pdf"
+          },
+          {
+            "name": "Lucas Moura Almeida e Silva",
+            "url": "https://riocomb.github.io/assets/certificates/participation-lucas-moura-almeida-e-silva.pdf"
+          },
+          {
+            "name": "Clayton Santos de Araujo",
+            "url": "https://riocomb.github.io/assets/certificates/participation-clayton-santos-de-araujo.pdf"
+          },
+          {
+            "name": "Renan da Silva Guedes",
+            "url": "https://riocomb.github.io/assets/certificates/participation-renan-da-silva-guedes.pdf"
+          },
+          {
+            "name": "Mauro Nigro Alves Junior",
+            "url": "https://riocomb.github.io/assets/certificates/participation-mauro-nigro-alves-junior.pdf"
+          },
+          {
+            "name": "Diana Sasaki",
+            "url": "https://riocomb.github.io/assets/certificates/participation-diana-sasaki.pdf"
+          },
+          {
+            "name": "Luerbio Faria",
+            "url": "https://riocomb.github.io/assets/certificates/participation-luerbio-faria.pdf"
+          },
+          {
+            "name": "Mariana Martins Ferreira da Cruz",
+            "url": "https://riocomb.github.io/assets/certificates/participation-mariana-martins-ferreira-da-cruz.pdf"
+          },
+          {
+            "name": "Matheus Nunes Adauto",
+            "url": "https://riocomb.github.io/assets/certificates/participation-matheus-nunes-adauto.pdf"
+          },
+          {
+            "name": "Mayara Midori Omai",
+            "url": "https://riocomb.github.io/assets/certificates/participation-mayara-midori-omai.pdf"
+          },
+          {
+            "name": "Celina Miraglia Herrera de Figueiredo",
+            "url": "https://riocomb.github.io/assets/certificates/participation-celina-miraglia-herrera-de-figueiredo.pdf"
+          }
+        ],
+        "organization": [
+          {
+            "name": "Mauro Nigro Alves Junior",
+            "url": "https://riocomb.github.io/assets/certificates/organization-mauro-nigro-alves-junior.pdf"
+          },
+          {
+            "name": "Diana Sasaki",
+            "url": "https://riocomb.github.io/assets/certificates/organization-diana-sasaki.pdf"
+          },
+          {
+            "name": "Luerbio Faria",
+            "url": "https://riocomb.github.io/assets/certificates/organization-luerbio-faria.pdf"
+          },
+          {
+            "name": "Mariana Martins Ferreira da Cruz",
+            "url": "https://riocomb.github.io/assets/certificates/organization-mariana-martins-ferreira-da-cruz.pdf"
+          },
+          {
+            "name": "Matheus Nunes Adauto",
+            "url": "https://riocomb.github.io/assets/certificates/organization-matheus-nunes-adauto.pdf"
+          },
+          {
+            "name": "Mayara Midori Omai",
+            "url": "https://riocomb.github.io/assets/certificates/organization-mayara-midori-omai.pdf"
+          },
+          {
+            "name": "Celina Miraglia Herrera de Figueiredo",
+            "url": "https://riocomb.github.io/assets/certificates/organization-celina-miraglia-herrera-de-figueiredo.pdf"
+          }
+        ]
       }
     }
   ]

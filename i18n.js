@@ -1,5 +1,7 @@
 'use strict';
 const english = {
+ 'Certificados':'Certificates', 'Participação — 6 horas':'Participation — 6 hours', 'Clique no seu nome para abrir o certificado em PDF.':'Click your name to open your PDF certificate.',
+
  'Instituto de Matemática, Estatística e Computação':'Institute of Mathematics, Statistics and Computing',
  'Pesquisadores visitantes':'Visiting researchers',
  'Universidade do Estado do Rio de Janeiro':'Rio de Janeiro State University',
