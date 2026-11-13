@@ -144,29 +144,15 @@ function renderCertificates(edition) {
     programme.closest('section').after(section);
   }
   section.replaceChildren();
-  const groups = edition.certificates;
-  section.hidden = !groups;
-  if (!groups) return;
+  const email = edition.contactEmail;
+  section.hidden = !email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+  if (section.hidden) return;
   const heading = element('h2', '', t('Certificados'));
   heading.id = 'certificates-title';
-  const grid = element('div', 'certificate-groups');
-  for (const [kind, label] of [['participation', 'Participação — 6 horas'], ['organization', 'Organização']]) {
-    const card = element('div', 'certificate-group');
-    const items = groups[kind] || [];
-    card.append(element('h3', '', t(label) + ' (' + items.length + ')'));
-    const list = element('ul', 'certificate-list');
-    for (const certificate of [...items].sort((a, b) => a.name.localeCompare(b.name, 'pt-BR'))) {
-      const url = safeUrl(certificate.url);
-      if (!url) continue;
-      const item = element('li');
-      const link = externalLink(certificate.name, url);
-      link.className = 'certificate-link';
-      link.target = '_blank'; link.rel = 'noopener';
-      item.append(link); list.append(item);
-    }
-    card.append(list); grid.append(card);
-  }
-  section.append(heading, element('p', 'certificates-description', t('Clique no seu nome para abrir o certificado em PDF.')), grid);
+  const message = element('p', 'certificates-description', t('Solicite por e-mail seu certificado de participação ou de organização em PDF. O certificado será enviado por e-mail.'));
+  const link = element('a', 'certificate-request-link', t('Solicitar certificado por e-mail'));
+  link.href = 'mailto:' + email + '?subject=' + encodeURIComponent(t('Solicitação de certificado — Rio COMB'));
+  section.append(heading, message, link);
 }
 
 function renderProgram(edition) {

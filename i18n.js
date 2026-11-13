@@ -1,5 +1,7 @@
 'use strict';
 const english = {
+ 'Solicite por e-mail seu certificado de participação ou de organização em PDF. O certificado será enviado por e-mail.':'Request your participation or organizing committee certificate as a PDF by email. Your certificate will be sent by email.', 'Solicitar certificado por e-mail':'Request a certificate by email', 'Solicitação de certificado — Rio COMB':'Certificate request — Rio COMB',
+
  'Certificados':'Certificates', 'Participação — 6 horas':'Participation — 6 hours', 'Clique no seu nome para abrir o certificado em PDF.':'Click your name to open your PDF certificate.',
 
  'Instituto de Matemática, Estatística e Computação':'Institute of Mathematics, Statistics and Computing',
